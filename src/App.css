@@ -1,0 +1,299 @@
+/******APP.JS***********/
+.page-footer {
+  font-style: normal;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header-color {
+  background: #b92b27;
+  background: -webkit-linear-gradient(to right, #1565c0, #b92b27);
+  background: linear-gradient(to right, #1565c0, #b92b27);
+}
+
+/***************ABOUT ME PAGE*****************/
+
+.about-me-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: #b92b27;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+}
+.about-me-text hr {
+  border-top: 5px liner black;
+  width: 70%;
+  margin: auto;
+}
+.about-me-text p {
+  color: black;
+  font-size: 25px;
+  text-align: left;
+}
+
+/********CONTACT PAGE********/
+
+.contact-body {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding: 2em;
+}
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 1000px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contct-grid h2 {
+  font-family: "Anton", sans-serif;
+}
+
+.contact-grid p {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-List i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+/******************Register**********/
+.Connect {
+  /* Na77itha bech me twallich l page feha 2 scroll bars */
+  /* height: 100vh; */
+  display: flex;
+  color: white;
+}
+
+.Connect__Aside {
+  /* Baddaltha min 50 lil 70 just 5ater todhhor azyen ki tabda as8er l form */
+  width: 70%;
+  background-color: #66dac7;
+}
+
+.Connect__Form {
+    /* Baddaltha min 50 lil 30 just 5ater todhhor azyen ki tabda as8er l form */
+  width: 30%;
+  background-color: #2e4158;
+  padding: 25px 40px;
+  overflow: auto;
+}
+
+.PageSwitcher {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10%;
+}
+
+.PageSwitcher__Item {
+  background-color: #4c5d72;
+  color: #9da6b1;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: 0.9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.PageSwitcher__Item--Active {
+  background-color: #5ed0c0;
+  color: white;
+}
+
+.PageSwitcher__Item:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.PageSwitcher__Item:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.FormCenter {
+  margin-bottom: 100px;
+}
+
+.FormTitle {
+  color: #707c8b;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.FormTitle__Link {
+  color: #707c8b;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7em;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+
+.FormTitle__Link:first-child {
+  margin-left: 0;
+}
+
+.FormTitle__Link--Active {
+  color: white;
+  border-bottom: 1px solid #199087;
+}
+
+.FormField {
+  margin-bottom: 40px;
+}
+
+.FormField__Label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: white;
+}
+.FormField__Input {
+  width: 85%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 1px solid #445366;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.FormField__Input::placeholder {
+  color: #616e7f;
+}
+
+.FormField__Button {
+  background-color: #52c4b9;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 15px 70px;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.FormField__Link {
+  color: #66707d;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1.5px solid #225e62;
+  padding-bottom: 5px;
+}
+
+.FormField__CheckboxLabel {
+  color: #646f7d;
+  font-size: 0.9em;
+}
+
+.FormField__Checkbox {
+  position: relative;
+  top: 1.5px;
+}
+
+.FormField__TermsLink {
+  color: white;
+  border-bottom: 1px solid #199087;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 2px;
+  margin-left: 5px;
+}
+
+/********home*********/
+
+
+/* CSS teba3 l slider just grabbed it from the documentation maybe it doesn't do anything "No tested yet" */
+.slide-container {
+  width: 70%;
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.each-fade {
+  display: flex;
+}
+
+.each-fade .image-container {
+  width: 75%;
+  overflow: hidden;
+}
+
+.each-fade .image-container img {
+  width: 100%;
+}
+
+.each-fade h2 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #adceed;
+}
+
+/* to fix the issue with the wide connect page and home page. */
+.mdl-layout__content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* Utility classes for screen sizes. */
+.mdl-layout.is-small-screen .mdl-layout--large-screen-only {
+  display: none;
+}
+.mdl-layout:not(.is-small-screen) .mdl-layout--small-screen-only {
+  display: none;
+}
+
+.mdl-layout__container {
+  position: absolute;
+}
+.mdl-layout__container .mdl-layout__inner-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+}
